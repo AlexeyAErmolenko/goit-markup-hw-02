@@ -90,6 +90,7 @@ button {
 }
 
 .header-address {
+  font-style: normal;
 }
 
 .header-address-list {
@@ -100,7 +101,6 @@ button {
 
 .header-address .link {
   color: #434455;
-  font-style: normal;
 }
 
 .header-address .link:hover,
