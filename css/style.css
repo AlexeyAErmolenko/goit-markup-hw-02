@@ -1,6 +1,7 @@
 body {
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 a {
@@ -46,6 +47,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .link {
@@ -98,9 +100,11 @@ button {
 
 .header-address .link {
   color: #434455;
+  font-style: normal;
 }
 
-.header-address .link:hover {
+.header-address .link:hover,
+.header-address .link:focus {
   color: #404bbf;
 }
 
@@ -109,6 +113,7 @@ button {
 
 .hero {
   background: #2e2f42;
+  color: #fff;
 }
 .hero-title {
   font-weight: 700;
@@ -116,12 +121,17 @@ button {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
 }
-.subtitle .btn {
+.body-text .btn {
   letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  /*?font-family: "Roboto", sans-serif;*/
 }
 
+.body-text .btn:hover,
+.body-text .btn:focus {
+  background-color: #404bbf;
+}
 /*===========================*/
 
 /*===========Feature=========*/
@@ -161,6 +171,7 @@ button {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-img {
